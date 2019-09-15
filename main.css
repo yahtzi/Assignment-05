@@ -1,0 +1,30 @@
+/* These are my Google Fonts. 
+font-family: 'Dancing Script', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Satisfy', cursive; 
+*/
+body {
+    font-size: 16px;
+    background-image: url(images/pagebackground.jpg);
+}
+.banner {
+    background-image: url(images/mediterraneanbanner.jpg);
+    height: 300px;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #FF724E;
+    text-shadow: 5px 5px 4px #B34225;
+    padding-top: 60px;
+}
+.description {
+    text-align: center;
+    font-size: 25px;
+    color: #4FFFC5;
+    text-shadow: 2px 2px 3px #14B37E;
+    font-style: italic;
+    font-weight: bold;
+}
