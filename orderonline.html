@@ -16,46 +16,186 @@
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="orderonline">Order Online</a></li>
+            <li><a href="orderonline.html">Order Online</a></li>
             <li><a href="feedback.html">Feedback</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
         </ul>
     </nav>
+    <form action="orderplaced.html">
     <section>
             <ol>
                 <li><h2>Greek Salad</h2></li>
                 <br>
-                <p>tomatoes, cucumber, green peppers, red onions and feta cheese. A simple dressing of excellent extra virgin 
+                <p>Lettuce, tomatoes, cucumber, green peppers, red onions and feta cheese. A simple dressing of excellent extra virgin 
                     olive oil and red wine vinegar</p>
                 <br>
                 <img src="images/greeksalad.jpg" alt="A bowl with a Greek Salad">
                 <br>
+                <form id="order" action="order.php" method="post">
+                <fieldset>
+                    <legend>Lettuce</legend>
+                    <input type="radio" name="lettuce" id="lettuce1"
+                        value="romaine">
+                    <label for="lettuce2">Romaine Lettuce</label><br>
+                    <input type="radio" name="lettuce" id="lettuce2"
+                        value="iceberg">
+                    <label for="lettuce2">Iceberg Lettuce</label><br>
+
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Toppings</legend>
+                    <input type="checkbox" name="topping1" id="topping1"
+                        value="cucumber">
+                    <label for="topping1">Cucumber</label><br>
+                    <input type="checkbox" name="topping2" id="topping2"
+                        value="greenpeppers">
+                    <label for="topping2">Green Peppers</label><br>
+                    <input type="checkbox" name="topping3" id="topping3"
+                        value="redonions">
+                    <label for="topping3">Red Oninos</label><br>
+                    <input type="checkbox" name="topping4" id="topping4"
+                        value="fetacheese">
+                    <label for="topping4">Feta Cheese</label><br>
+
+                </fieldset>
                 <br>
                 <li><h2>Broccoli Rabe with Olives & Garlic</h2></li>
                 <br>
                 <p> Italian vegetable side recipe, garlic, olives and olive oil tone down broccoli rabe's bitterness a bit. 
-                    Serve with your favorite Italian pasta, chicken or steak.</p>
+                    Serve with chicken or steak.</p>
                 <br>
                 <img src="images/broccolirabe.jpg" alt="A plate with Broccoli Rabe with Olives and Garlic.">
                 <br>
+                <form id="order" action="order.php" method="post">
+                        <fieldset>
+                            <legend>Protein</legend>
+                            <input type="radio" name="protein" id="protein1"
+                                value="chicken">
+                            <label for="protein1">Chicken</label><br>
+                            <input type="radio" name="protein" id="protein2"
+                                value="steak">
+                            <label for="protein2">Steak</label><br>
+        
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend>Toppings</legend>
+                            <input type="checkbox" name="topping1" id="topping1"
+                                value="garlic">
+                            <label for="topping1">Garlic</label><br>
+                            <input type="checkbox" name="topping2" id="topping2"
+                                value="olives">
+                            <label for="topping2">Olives</label><br>
+                           
+                        </fieldset>
+        
                 <br>
                 <li><h2>Mediterranean Chickpea Quinoa Bowl</h2></li>
                 <br>
-                <p>Roasted red pappers, almonds, extra virgin olive oil, garlic, quinoa, red onion, cucumber, feta cheese, 
+                <p>Roasted red peppers, almonds, extra virgin olive oil, garlic, quinoa, red onion, cucumber, feta cheese, 
                     chickpeas, and fresh parsley. 
                 </p>
                 <br>
                 <img src="images/chickpeaquinoa.jpg" alt="A prepared bowl of Chickpea Quinoa bowl with all ingredients finely chopped">
                 <br>
+                <form id="order" action="order.php" method="post">
+                        <fieldset>
+                            <legend>Filler</legend>
+                            <input type="radio" name="filler" id="filler1"
+                                value="quinoa">
+                            <label for="grain1">Quinoa</label><br>
+                            <input type="radio" name="filler" id="filler2"
+                                value="chickpea">
+                            <label for="filler2">Chickpea</label><br>
+        
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend>Toppings</legend>
+                            <input type="checkbox" name="topping1" id="topping1"
+                                value="redpeppers">
+                            <label for="topping1">Red Peppers</label><br>
+                            <input type="checkbox" name="topping2" id="topping2"
+                                value="cucumber">
+                            <label for="topping2">Cucumber</label><br>
+                            <input type="checkbox" name="topping3" id="topping3"
+                                value="redonion">
+                            <label for="topping3">Red Onion</label><br>
+                            <input type="checkbox" name="topping4" id="topping4"
+                                value="fetacheese">
+                            <label for="topping4">Feta Cheese</label><br>
+                           
+                        </fieldset>
+
                 <br>
                 <li><h2>One-Skillet Salmon with Fennel & Sun-Dried Tomato Coucous</h2></li>
                 <br>
-                <p>Salmon, sun-dried tomato pesto, olive oil, fennel, Israeli couscous, green olives, chicken broth, and toasted pine nuts. </p>
+                <p>Salmon, sun-dried tomato pesto, olive oil, fennel, Israeli couscous, green olives, chicken broth, and toasted pine nuts.
+                    For those who don't want salmon, we also offer chicken substitute. </p>
                 <br>
                 <img src="images/couscous.jpg" alt="A skillet of Salmon with Fennel and Sun-Dried Tomato Couscous.">
+                <br>
+                <form id="order" action="order.php" method="post">
+                        <fieldset>
+                            <legend>Protein</legend>
+                            <input type="radio" name="protein" id="protein1"
+                                value="salmon">
+                            <label for="protein1">Salmon</label><br>
+                            <input type="radio" name="protein" id="protein2"
+                                value="chicken">
+                            <label for="protein2">Chicken</label><br>
+        
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend>Toppings</legend>
+                            <input type="checkbox" name="topping1" id="topping1"
+                                value="sundriedtomatoes">
+                            <label for="topping1">Sun-Dried Tomatoes</label><br>
+                            <input type="checkbox" name="topping2" id="topping2"
+                                value="fennel">
+                            <label for="topping2">Fennel</label><br>
+                            <input type="checkbox" name="topping3" id="topping3"
+                                value="greenolives">
+                            <label for="topping3">Green Olives</label><br>
+                            <input type="checkbox" name="topping4" id="topping4"
+                                value="toastedpinenuts">
+                            <label for="topping4">Toasted Pine Nuts</label><br>
+
             </ol>
         </section>
-    
+<h2>Drinks</h2>
+<form id="order" action="order.php" method="post">
+        <fieldset>
+            <legend>Size</legend>
+            <input type="radio" name="size" id="size1"
+                value="small">
+            <label for="size1">Small</label><br>
+            <input type="radio" name="size" id="size2"
+                value="regular">
+            <label for="size2">Regular</label><br>
+            <input type="radio" name="size" id="size3"
+                value="large">
+            <label for="size3">Large</label><br>
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Drinks</legend>
+            <input type="checkbox" name="drink1" id="drink1"
+                value="water">
+            <label for="drink1">Water</label><br>
+            <input type="checkbox" name="drink2" id="drink2"
+                value="coke">
+            <label for="drink2">Coke</label><br>
+            <input type="checkbox" name="drink3" id="drink3"
+                value="icedtea">
+            <label for="drink3">Iced Tea</label><br>
+            <input type="checkbox" name="drink4" id="drink4"
+                value="kombucha">
+            <label for="drink4">Kombucha</label><br>
+            <input type="submit" name="submit" value="Submit">
+
+        </form>
 </body>
 </html>

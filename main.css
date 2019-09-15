@@ -7,6 +7,7 @@ font-family: 'Satisfy', cursive;
 body {
     font-size: 16px;
     background-image: url(images/pagebackground.jpg);
+    color: white;
 }
 .banner {
     background-image: url(images/mediterraneanbanner.jpg);
@@ -15,10 +16,12 @@ body {
 }
 h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     color: #FF724E;
     text-shadow: 5px 5px 4px #B34225;
     padding-top: 60px;
+    font-family: 'Rajdhani', sans-serif;
+
 }
 .description {
     text-align: center;
@@ -27,6 +30,8 @@ h1 {
     text-shadow: 2px 2px 3px #14B37E;
     font-style: italic;
     font-weight: bold;
+    font-family: 'Satisfy', cursive; 
+
 }
 ul {
     list-style-type: none;
